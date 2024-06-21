@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  display: flex;
+  height: 100vh;
+  background-image: url(../imagens/fundo-madeira.jpg);
+}
+img {
+  width: 50px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 10px;
+  width: 100px;
+}
+li {
+  list-style: none;
+}
+
+section#iframe {
+  background: url(../imagens/frame-iphone.png);
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 627px;
+  margin: auto;
+}
