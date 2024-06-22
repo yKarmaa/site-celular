@@ -14,6 +14,16 @@ main {
 }
 img {
   width: 50px;
+  border: none;
+  border-radius: 100px;
+  transition: width 0.2s, border 0.8s;
+}
+
+img:hover {
+  border: 1px solid white;
+  width: 53px;
+  box-shadow: 3px 3px 20px black;
+  transition: width 0.2s, border 0.8s;
 }
 ul {
   display: flex;
